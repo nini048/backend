@@ -1,0 +1,27 @@
+{
+  "name": "backend-zero",
+  "version": "1.0.0",
+  "description": "study nodejs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nini048/backend.git"
+  },
+  "keywords": [
+    "nodejs",
+    "react"
+  ],
+  "author": "nini",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nini048/backend/issues"
+  },
+  "homepage": "https://github.com/nini048/backend#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

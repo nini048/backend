@@ -1,4 +1,4 @@
-require ('dotenv').config()
+require('dotenv').config()
 const express = require('express');
 const configViewEngine = require('./config/viewEngine')
 const webRouters = require('./routes/web')
@@ -8,9 +8,8 @@ const port = process.env.PORT || 8081;
 const hostname = process.env.HOST_NAME;
 
 configViewEngine(app)
-app.use('/',webRouters)
+app.use('/', webRouters)
 
-app.listen(port,hostname, () => {
+app.listen(port, hostname, () => {
     console.log(`listening on port ${port}`);
 })
-app 

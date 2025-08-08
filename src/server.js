@@ -13,12 +13,12 @@ app.use(express.urlencoded({extended: true}))
 configViewEngine(app)
 app.use('/', webRouters)
 
-connection.query(
-    'select * from Users u',
-    function (err, results, fields) {
-        console.log('>>result', results);
-    }
-)
+// connection.query(
+//     'select * from Users u',
+//     function (err, results, fields) {
+//         console.log('>>result', results);
+//     }
+// )
 
 app.listen(port, hostname, () => {
     console.log(`listening on port ${port}`);
